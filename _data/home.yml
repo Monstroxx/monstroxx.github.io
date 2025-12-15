@@ -3,10 +3,10 @@ navbar_entries:
     url: /
 
   - title: Blog
-    url: blog
+    url: /blog
 
   - title: Projects
-    url: "#projects"
+    url: /#projects
 
 project_entries:
   - title: Test Project 1
@@ -27,10 +27,10 @@ footer_entries:
     url: /
 
   - title: Blog
-    url: blog
+    url: /blog
 
   - title: About
-    url: about
+    url: /about
 
 misc_entries:
   - title: Blog Posts
@@ -41,4 +41,4 @@ misc_entries:
     url: false
     entries:
       - title: All Projects
-        url: "#projects"
+        url: /#projects
