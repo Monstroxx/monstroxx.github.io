@@ -1,33 +1,44 @@
-# Navbar entries
 navbar_entries:
-  - title: "Home"
-    url: "/"
-  - title: "Blog"
-    url: "/blog"
-  - title: "Projects"
-    url: "/#projects"
+  - title: Home
+    url: /
 
-# Footer entries
+  - title: Blog
+    url: blog
+
+  - title: Projects
+    url: "#projects"
+
+project_entries:
+  - title: Test Project 1
+    url: /projects/project1
+    desc: Dies ist ein Beispiel-Projekt, konfiguriert in _data/home.yml
+
+  - title: Test Project 2
+    url: /projects/project2
+    desc: Projekte werden in Card-Layout angezeigt
+
+  - title: Test Project 3
+    url: /projects/project3
+    desc: Du kannst die Sichtbarkeit über _config.yml steuern
+    highlight: NEW
+
 footer_entries:
-  - title: "Home"
-    url: "/"
-  - title: "Blog"
-    url: "/blog"
-  - title: "About"
-    url: "/about"
+  - title: Home
+    url: /
 
-# Vertical list entries (for home page menu)
-entries:
-  - title: "Blog"
-    url: "/blog"
+  - title: Blog
+    url: blog
+
+  - title: About
+    url: about
+
+misc_entries:
+  - title: Blog Posts
     post_list: true
-  - title: "Projects"
+    url: false
+
+  - title: Projects
     url: false
     entries:
-      - title: "All Projects"
-        url: "/#projects"
-
-# Project entries (cards for portfolio)
-project_entries:
-
-
+      - title: All Projects
+        url: "#projects"
