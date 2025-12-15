@@ -1,0 +1,42 @@
+# Navbar entries
+navbar_entries:
+  - title: "Home"
+    url: "/"
+  - title: "Blog"
+    url: "/blog"
+  - title: "Projects"
+    url: "/#projects"
+
+# Footer entries
+footer_entries:
+  - title: "Home"
+    url: "/"
+  - title: "Blog"
+    url: "/blog"
+  - title: "About"
+    url: "/about"
+
+# Vertical list entries (for home page menu)
+entries:
+  - title: "Blog"
+    url: "/blog"
+    post_list: true
+  - title: "Projects"
+    url: false
+    entries:
+      - title: "All Projects"
+        url: "/#projects"
+
+# Project entries (cards for portfolio)
+project_entries:
+  - title: "Project 1"
+    desc: "Description of your first project. You can add more details here."
+    url: "/projects/project1"
+    highlight: "New"
+  - title: "Project 2"
+    desc: "Description of your second project. Showcase your work here."
+    url: "/projects/project2"
+  - title: "Project 3"
+    desc: "Description of your third project. Highlight your skills."
+    url: "/projects/project3"
+

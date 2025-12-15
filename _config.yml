@@ -1,0 +1,45 @@
+# Site Settings
+title: "Monstroxx"
+description: "A fast and minimalistic blog"
+url: "https://monstroxx.github.io"
+baseurl: ""
+
+# Author
+author:
+  name: "Monstroxx"
+  email: ""
+
+# Theme (using remote_theme for GitHub Pages compatibility)
+remote_theme: abhinavs/moonwalk
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-remote-theme
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+# Theme appearance (light, dark, or auto)
+appearance: "auto"
+
+# Date format
+date_format: "%B %-d, %Y"
+
+# Soopr (optional - for social sharing)
+# soopr:
+#   publish_token: "your_token_here"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
